@@ -1,0 +1,11 @@
+.PreviewCard {
+    display: block;
+    z-index: 10;
+}
+.PreviewCard-image {
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 20%;
+    z-index: 10;
+}
