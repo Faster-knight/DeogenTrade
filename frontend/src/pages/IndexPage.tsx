@@ -13,6 +13,7 @@ interface Props {}
 function IndexPage({}: Props) {
     return (
         <div className="IndexPage">
+            
         </div>
     )
 }
