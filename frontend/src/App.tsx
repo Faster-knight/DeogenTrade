@@ -18,6 +18,9 @@ function App() {
       <ApplicationContext.Provider value={applicationContextValue}>
       <Routes>
           <Route index={true} path='/' Component={IndexPage} />
+          <Route path='/login' Component={null} />
+          <Route path='/registration' Component={null} />
+          <Route path='/cloth/{id}' Component={null} />
       </Routes>
       </ApplicationContext.Provider>
     </BrowserRouter>
