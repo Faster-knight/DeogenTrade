@@ -15,13 +15,9 @@ export type User = {
     imageLogoData: string,
     name: string
 }
-export function requestAboutCloth(id: number): Cloth {
-    return {
-        id: 0,
-        imageData: "base64;",
-        name: "test",
-        price: 0,
-        author: "test"
-    };
+export function requestAboutCloth(id: number): Cloth | undefined {
+    return undefined;
 }
-export function requestAboutUser(id: number) {}
+export function requestAboutUser(id: number): User | undefined {
+    return undefined;
+}
