@@ -8,7 +8,8 @@ export type Cloth = {
     imageData: string,
     name: string,
     price: number,
-    author: string
+    author: string,
+    label: string
 }
 export type User = {
     id: number,
@@ -20,4 +21,7 @@ export function requestAboutCloth(id: number): Cloth | undefined {
 }
 export function requestAboutUser(id: number): User | undefined {
     return undefined;
+}
+export function requestRecomentedCloth(id: number): [] {
+    return []
 }
